@@ -36,7 +36,7 @@ resource "aws_instance" "web" {
   vpc_security_group_ids = ["sg-01272d66"]
   tags {
     Identity = "capgemini-cfcd208495d565ef66e7dff9f98764da"
-    Name = "Arnold Rimmer"
+    Name = "H-Arnold Rimmer"
     Rimmer = "Ace" 
   }
 }
